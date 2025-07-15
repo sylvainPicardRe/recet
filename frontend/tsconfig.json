@@ -1,7 +1,12 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "es2016", // Cible la version ES2016 de JavaScript
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "commonjs", // Définit le système de modules
+    "outDir": "./dist", // Place les fichiers JS dans le dossier 'dist'
+    "rootDir": "./src", // Le code source se trouve dans le dossier 'src'
+    "strict": true, // Active toutes les vérifications de type strictes
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*"] // Indique à TSC de compiler tous les fichiers dans le dossier 'src'
 }
