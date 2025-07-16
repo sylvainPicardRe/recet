@@ -3,9 +3,17 @@ import RecipeCard from './components/RecipeCard/RecipeCard'
 
 function App() {
   return (
-    <div className="w-full h-screen flex justify-center items-center bg-amber-50">
-      {/* <SearchBar placeholder={'Rechercher une recette, un ingrédient, ...'} /> */}
-      <RecipeCard />
+    <div className="bg-amber-400 px-96">
+      <div className="grid grid-cols-3 gap-20">
+        {/* <SearchBar placeholder={'Rechercher une recette, un ingrédient, ...'} /> */}
+        <RecipeCard />
+        <RecipeCard />
+        <RecipeCard />
+        <RecipeCard />
+        <RecipeCard />
+        <RecipeCard />
+        <RecipeCard />
+      </div>
     </div>
   )
 }
