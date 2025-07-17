@@ -1,5 +1,4 @@
 // import RecipeCard from './components/RecipeCard/RecipeCard'
-
 import Hero from './components/Hero/Hero'
 
 function App() {
